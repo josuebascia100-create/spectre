@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Spectre Menu · Cheat Black Edition</title>
+<meta name="description" content="Spectre Menu: launcher e menu in gioco in un'unica interfaccia nera. Premi F1 e il menu dei cheat si apre.">
+<meta name="theme-color" content="#000000">
+<meta property="og:title" content="Spectre Menu · Cheat Black Edition">
+<meta property="og:image" content="app.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='black'/%3E%3Ctext x='16' y='23' font-size='20' font-weight='700' text-anchor='middle' fill='white' font-family='Arial'%3ES%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.className='js'</script>
+<script src="script.js" defer></script>
+</head>
+<body>
+<div class="progress" aria-hidden="true"></div>
+<canvas id="stars" aria-hidden="true"></canvas>
+
+<header class="nav">
+  <a class="brand" href="#top"><img src="logo.png" alt=""><span>Spectre Menu</span></a>
+  <nav aria-label="Principale">
+    <a href="#anteprima">Anteprima</a>
+    <a href="#funzioni">Funzioni</a>
+    <a href="#prezzi">Prezzi</a>
+  </nav>
+  <a class="btn btn-sm magnetic" href="#prezzi">Ottieni Spectre</a>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="logo-wrap"><img class="hero-logo" src="logo.png" alt="Logo Spectre"></div>
+    <h1 class="title" aria-label="Spectre">
+      <span style="--i:0">S</span><span style="--i:1">p</span><span style="--i:2">e</span><span style="--i:3">c</span><span style="--i:4">t</span><span style="--i:5">r</span><span style="--i:6">e</span>
+    </h1>
+    <p class="edition">Cheat Black Edition</p>
+    <p class="lead">Launcher e menu in gioco in un'unica interfaccia nera. Apri la libreria, controlla la licenza e injecta, poi premi F1 per aprire il menu.</p>
+    <div class="cta">
+      <a class="btn magnetic" href="#prezzi">Ottieni Spectre</a>
+      <a class="btn ghost magnetic" href="#anteprima">Guarda l'app</a>
+    </div>
+  </section>
+
+  <section class="sec" id="anteprima">
+    <h2>Tutto in una sola finestra.</h2>
+    <p class="sub">Panoramica, libreria, licenza, preferenze e supporto: la sidebar ti porta dove vuoi in un clic.</p>
+    <div class="stage">
+      <div class="shot"><img src="app.png" alt="Schermata Panoramica di Spectre Menu" width="1102" height="742"></div>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="track">
+      <span>Spectre</span><span>✦</span><span>Cheat Menu</span><span>✦</span><span>Black Edition</span><span>✦</span><span>Libreria</span><span>✦</span><span>Licenza</span><span>✦</span><span>F1</span><span>✦</span>
+      <span>Spectre</span><span>✦</span><span>Cheat Menu</span><span>✦</span><span>Black Edition</span><span>✦</span><span>Libreria</span><span>✦</span><span>Licenza</span><span>✦</span><span>F1</span><span>✦</span>
+    </div>
+  </div>
+
+  <section class="sec" id="ingioco">
+    <h2>Il menu, direttamente in gioco.</h2>
+    <p class="sub">Premi F1 e il menu si apre sopra la partita.</p>
+    <figure class="game">
+      <img src="foto.png" alt="Spectre Menu aperto in gioco" loading="lazy">
+      <figcaption><kbd>F1</kbd> apri o chiudi</figcaption>
+    </figure>
+  </section>
+
+  <section class="sec" id="funzioni">
+    <h2>Pochi passaggi, nessun rumore.</h2>
+    <div class="bento">
+      <article class="card w4 row">
+        <div>
+          <h3>Premi F1 per aprire o chiudere il menu dei cheat in gioco</h3>
+          <p>Premi il tasto F1 per aprire o chiudere il menu in game</p>
+        </div>
+        <div class="key" aria-hidden="true">F1</div>
+      </article>
+
+      <article class="card w2">
+        <svg class="lib" viewBox="0 0 64 48" width="64" height="48" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="6" width="10" height="36" rx="2"/><rect x="18" y="6" width="10" height="36" rx="2"/><rect x="32" y="6" width="10" height="36" rx="2"/><path d="M46 12l9-3 8 30-9 3z"/></svg>
+        <h3>Libreria</h3>
+        <p>Accedi direttamente dalla libreria del launcher.</p>
+      </article>
+
+      <article class="card w2">
+        <div class="bar" aria-hidden="true"><i></i></div>
+        <h3>Licenza sotto controllo</h3>
+        <p>Piano attivo e scadenza nella Panoramica, gestione dalla pagina Licenza.</p>
+      </article>
+
+      <article class="card w4 row">
+        <div>
+          <h3>Black Edition</h3>
+          <p>Interfaccia scura, pulita, senza elementi superflui. La pagina Supporto resta sempre nella sidebar.</p>
+        </div>
+        <div class="ghost-num" aria-label="Versione 1">1.4</div>
+      </article>
+    </div>
+  </section>
+
+  <section class="sec" id="prezzi">
+    <h2>Scegli la durata.</h2>
+    <p class="sub">Dalla prova di un giorno alla licenza Lifetime. Per acquistare apri un ticket sul nostro Discord.</p>
+    <div class="plans">
+      <article class="card plan">
+        <h3>1 Day</h3>
+        <div class="price"><b>Gratis</b></div>
+        <button class="btn ghost buy" type="button" data-plan="1 Day" data-price="Gratis">Prova gratis</button>
+      </article>
+      <article class="card plan">
+        <h3>3 Days</h3>
+        <div class="price"><b data-n="5">5</b><small>€</small></div>
+        <button class="btn ghost buy" type="button" data-plan="3 Days" data-price="5,00€">Acquista</button>
+      </article>
+      <article class="card plan">
+        <h3>1 Week</h3>
+        <div class="price"><b data-n="10">10</b><small>€</small></div>
+        <button class="btn ghost buy" type="button" data-plan="1 Week" data-price="10,00€">Acquista</button>
+      </article>
+      <article class="card plan">
+        <h3>1 Month</h3>
+        <div class="price"><b data-n="20">20</b><small>€</small></div>
+        <button class="btn ghost buy" type="button" data-plan="1 Month" data-price="20,00€">Acquista</button>
+      </article>
+      <article class="card plan">
+        <h3>3 Months</h3>
+        <div class="price"><b data-n="40">40</b><small>€</small></div>
+        <button class="btn ghost buy" type="button" data-plan="3 Months" data-price="40,00€">Acquista</button>
+      </article>
+      <article class="card plan top">
+        <h3>Lifetime</h3>
+        <div class="price"><b data-n="75">75</b><small>€</small></div>
+        <button class="btn buy" type="button" data-plan="Lifetime" data-price="75,00€">Acquista</button>
+      </article>
+    </div>
+  </section>
+
+  <section class="sec final" id="inizia">
+    <img src="logo.png" alt="" width="110" height="110">
+    <h2>Apri il menu dei cheat con F1.</h2>
+    <p class="sub">Acquista Spectre e attiva la tua licenza.</p>
+    <div class="cta">
+      <a class="btn magnetic" href="#prezzi">Scegli il piano</a>
+      <a class="btn ghost magnetic" href="https://discord.gg/e8QQgYRaUJ" target="_blank" rel="noopener">Entra nel Discord</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <span>© 2026 Spectre Menu</span>
+  <a href="https://discord.gg/e8QQgYRaUJ" target="_blank" rel="noopener">Discord</a>
+  <span>Spectre</span>
+</footer>
+<dialog class="modal" id="ticket" aria-labelledby="t-title">
+  <form method="dialog"><button class="x" aria-label="Chiudi">✕</button></form>
+  <img src="logo.png" alt="" width="72" height="72">
+  <h3 id="t-title">Apri un ticket per continuare</h3>
+  <p>Hai scelto <strong id="t-plan"></strong> (<span id="t-price"></span>). Per completare l'ordine apri un ticket sul nostro Discord e indica questo piano.</p>
+  <ol><li>Entra nel Discord</li><li>Apri un ticket</li><li>Scrivi il piano che vuoi</li></ol>
+  <a class="btn" href="https://discord.gg/e8QQgYRaUJ" target="_blank" rel="noopener">Apri il Discord</a>
+</dialog>
+</body>
+</html>
